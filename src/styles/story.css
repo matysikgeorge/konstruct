@@ -1,0 +1,37 @@
+.story{
+  padding: 49px 0 64px;
+border: 2px dashed red;
+}
+
+.story__title {
+  color: #48555b;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2.306px;
+}
+
+.line {
+  display: block;
+  margin: 11px auto 0;
+}
+.story__wrapper {
+  border: 2px dashed green;
+  margin-top: 81px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.story__text {
+}
+.story__left-block {
+  max-width: 405px;
+}
+
+.story__right-block {
+}
+
+.story__pic {
+  max-width: 140px;
+  height: 224px;
+}

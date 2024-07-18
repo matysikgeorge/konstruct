@@ -1,0 +1,37 @@
+.header {
+  margin: 0 auto;
+  border: 1px solid #e6e6e6;
+  padding: 25px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__lists {
+  color: #48555b;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.091px;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  transition: 0.5s;
+}
+
+.header__link {
+  color: #48555b;
+  transition: 0.5s;
+}
+
+.header__link:hover {
+  color: #070707;
+}

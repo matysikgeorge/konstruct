@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 940px;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    color: inherit;
+    font-size: inherit;
+    background: none;
+    border: none;
+  }
+  
+  select {
+    color: inherit;
+    appearance: none;
+    border: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-size: inherit;
+    font-weight: 400;
+  }
