@@ -15,14 +15,16 @@
       />
       <div class="head__container">
         <img
-        class="konstruct__logo"
-        src="./src/img/logo/white__logo.svg"
-        alt="logo konstruct"
+          class="konstruct__logo"
+          src="./src/img/logo/white__logo.svg"
+          alt="logo konstruct"
         />
-        <h1 class="picture__title">PARTNER WITH KONSTRUCT</h1>
-        <p class="picture__midle-text">
-          An award-winning construction management firm
-        </p>
+        <div class="picture__center-text">
+          <h1 class="picture__title">PARTNER WITH KONSTRUCT</h1>
+          <p class="picture__midle-text">
+            An award-winning construction management firm
+          </p>
+        </div>
         <p class="picture__end-text">SCROLL DOWN</p>
       </div>
     </section>
@@ -49,14 +51,14 @@
     <section class="story">
       <div class="container">
         <h2 class="story__title">OUR STORY</h2>
-        <img class="line" src="./src/img/our_story/Line.svg" alt="blue line" />
+        <div class="line"></div>
         <div class="story__wrapper">
           <div class="story__left-block">
             <p class="story__text">
               Founded in 2011 by John Mathew Smith, Konstruct has become the
               number one construction management
             </p>
-            <p class="story__text">
+            <p class="story__text story__text--normal">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -89,13 +91,20 @@
     </section>
     <section class="services">
       <div class="container">
-        <h2 class="story__title">OUR CAPABILITIES</h2>
-        <img class="line" src="./src/img/our_story/Line.svg" alt="blue line" />
-        <p class="service__text">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
-        </p>
-        <button type="button">ALL SERVICES</button>
+        <div class="services__top">
+          <div class="services__left">
+            <h2 class="service__title">OUR CAPABILITIES</h2>
+            <div class="service__line"></div>
+          </div>
+          <div class="services__right">
+            <p class="service__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat.
+            </p>
+            <button class="button">ALL SERVICES</button>
+          </div>
+        </div>
         <div class="service__wrapper">
           <article class="service__card">
             <img
@@ -103,34 +112,34 @@
               src="./src/img/our_capibilites/note_icon.svg"
               alt="note icon"
             />
-            <h3 class="service__title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
-            <p class="service__text">
+            <h3 class="card__title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+            <p class="card__text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat.
             </p>
           </article>
-          <article>
+          <article class="service__card">
             <img
               class="service__icon"
               src="./src/img/our_capibilites/shop_icon.svg"
               alt="note icon"
             />
-            <h3 class="service__title">STRUCTURE AUDIT AND MAINTENANCE</h3>
-            <p class="service__text">
+            <h3 class="card__title">STRUCTURE AUDIT AND MAINTENANCE</h3>
+            <p class="card__text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat.
             </p>
           </article>
-          <article>
+          <article class="service__card">
             <img
               class="service__icon"
               src="./src/img/our_capibilites/bank_icon.svg"
               alt="note icon"
             />
-            <h3 class="service__title">FACTORY CONSTRUCTION AND MODELING</h3>
-            <p class="service__text">
+            <h3 class="card__title">FACTORY CONSTRUCTION AND MODELING</h3>
+            <p class="card__text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat.
@@ -140,19 +149,26 @@
       </div>
     </section>
     <section class="touch">
-      <div class="touch__wrapper">
-        <!-- <img
-          class="touch__pic"
-          src="./src/img/last_pic.webp"
-          alt="photo of city"
-        /> -->
-        <h2 class="toch__title">Want to build something amazing?</h2>
-        <button type="button">GET IN TOUCH</button>
-      </div>
+      <h2 class="touch__title">Want to build something amazing?</h2>
+      <button class="button touch__button">GET IN TOUCH</button>
     </section>
     <footer>
       <section class="contacts">
-        <div class="footer__container"></div>
+        <div class="container">
+          <div class="wrapper">
+            <div class="footer__text">
+              <h3 class="footer__text-left">Newsletter Signup</h3>
+            </div>
+            <div class="footer__text-right">
+              <button class="button">GET IN TOUCH</button>
+            </div>
+            <div class="end__text">
+              <p class="footer__text-end">
+                © 2017 Konstruct Inc. Designed by Jane Kathryn Teo
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </footer>
   </body>

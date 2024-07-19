@@ -1,0 +1,30 @@
+/* .footer__text {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.footer__text-left {
+  color: #fff;
+  max-width: 216px;
+  width: 100%;
+  height: 30px;
+  margin-top: 35px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.846px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text-end {
+  color: #fff;
+  max-width: 308px;
+  width: 100%;
+  height: 15px;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.846px;
+}
+
+

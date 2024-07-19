@@ -1,6 +1,6 @@
-.story{
+.story {
   padding: 49px 0 64px;
-border: 2px dashed red;
+  border: 2px dashed red;
 }
 
 .story__title {
@@ -12,8 +12,11 @@ border: 2px dashed red;
 }
 
 .line {
+  background-color: #00a4e5;
   display: block;
   margin: 11px auto 0;
+  width: 50px;
+  height: 2px;
 }
 .story__wrapper {
   border: 2px dashed green;
@@ -23,15 +26,32 @@ border: 2px dashed red;
 }
 
 .story__text {
-}
-.story__left-block {
+  color: #48555b;
   max-width: 405px;
+  width: 100%;
+  height: 81px;
+  width: max-content;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.427px;
 }
 
-.story__right-block {
+.story__text--normal{
+  color: #48555B;
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.188px;
+}
+
+.story__left-block {
+  max-width: 405px;
 }
 
 .story__pic {
   max-width: 140px;
   height: 224px;
+  position: relative;
 }
