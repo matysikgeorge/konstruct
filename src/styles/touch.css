@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 499px;
+  padding-top: 120px;
 }
 
 .touch__picture {
@@ -22,7 +23,6 @@
   max-width: 350px;
   width: 100%;
   height: 72px;
-  margin-top: 120px;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -31,6 +31,7 @@
 
 .touch__button{
   margin: 0 auto;
+  margin-top: 35px;
 }
 
 
